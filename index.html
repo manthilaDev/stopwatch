@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<head>
+    <title>Timer</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="timer-app-container">
+        <div class="timer-container">
+            <div id="timer">00:00:00</div>
+        </div>
+        <div class="timer-container">
+            <div id="button-array-container">
+                <button class="timer-button" onclick="start_btn_fn()">Start</button>
+                <button class="timer-button" onclick="pause_btn_fn()">Pause</button>
+                <button class="timer-button" onclick="reset_btn_fn()">Reset</button>
+            </div>                       
+        </div>
+        <div class="timer-container">
+            <div id="hidden-button-array-container">
+                <button class="timer-button" onclick="lap_btn_fn()">Lap</button>                                
+            </div>  
+        </div>
+        <div class="timer-container">
+            <div class="lap-list-container">
+                <div id="lap-list-entry">                    
+                </div>
+            </div>  
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

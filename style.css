@@ -1,0 +1,44 @@
+@font-face {
+    font-family: camingocode;
+    src: url(./assests/camingocode/CamingoCode-Regular.ttf);
+}
+@font-face {
+    font-family: impact;
+    src: url(./assests/impact/impact.ttf);
+}
+#timer-app-container{
+    display: flex;    
+    flex-direction: column;
+    row-gap: 20px;
+}
+#button-array-container{
+    display: flex;
+    grid-column-gap: 20px;
+}
+#timer{
+    font-family: camingocode;
+    font-weight: bold;
+    font-size: 150px;
+    text-shadow: 5px 2px lightgrey;       
+}
+.timer-container{
+    display: flex;
+    justify-content: center;
+    
+}
+.timer-button{    
+    font-family: impact;  
+    letter-spacing: 2px;
+    background-color: lightpink;
+    width: 160px;
+    height: 90px;
+    border-radius: 30px;   
+    
+}
+
+.timer-button:hover{
+    cursor: pointer;
+    background-color: pink;
+    box-shadow: 2px 5px lightgrey;
+    
+}
