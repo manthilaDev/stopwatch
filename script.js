@@ -1,5 +1,3 @@
-console.log('testing import')
-
 const timer = {
     s_clock : 0,
     tick_interval : null,
