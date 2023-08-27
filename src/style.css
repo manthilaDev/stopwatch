@@ -1,10 +1,10 @@
 @font-face {
     font-family: camingocode;
-    src: url(./assests/camingocode/CamingoCode-Regular.ttf);
+    src: url(./assests/fonts/camingocode/CamingoCode-Regular.ttf);
 }
 @font-face {
     font-family: impact;
-    src: url(./assests/impact/impact.ttf);
+    src: url(./assests/fonts/impact/impact.ttf);
 }
 #timer-app-container{
     display: flex;    
@@ -52,5 +52,7 @@
 }
 
 #lap-list-entry>li{
+    list-style-type: circle;
     font-family: camingocode;
+    text-decoration: underline dotted;
 }

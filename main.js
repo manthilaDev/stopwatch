@@ -8,7 +8,7 @@ const createWindow = () =>{
         height: 600,       
     })
     // win.setIcon('./assests/icon/icon.ico')    
-    win.loadFile('index.html')
+    win.loadFile('./src/index.html')
 }
 
 app.whenReady().then(()=>{
