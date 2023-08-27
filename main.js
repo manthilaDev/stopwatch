@@ -1,13 +1,14 @@
-const {app, BrowserWindow } = require('electron')
+const {app, BrowserWindow } = require('electron');
+
+if (require('electron-squirrel-startup')) app.quit();
 
 const createWindow = () =>{
     const win = new BrowserWindow({
         width: 800,
-        height: 600
+        height: 600,       
     })
-
-    win.setIcon('./assests/icon/icon.ico')
-    win.loadFile('./index.html')
+    // win.setIcon('./assests/icon/icon.ico')    
+    win.loadFile('index.html')
 }
 
 app.whenReady().then(()=>{

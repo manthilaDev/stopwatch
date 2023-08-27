@@ -42,3 +42,15 @@
     box-shadow: 2px 5px lightgrey;
     
 }
+
+.lap-list-container{
+    height: 85px; 
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    overflow: auto;
+}
+
+#lap-list-entry>li{
+    font-family: camingocode;
+}
