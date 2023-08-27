@@ -3,3 +3,15 @@ _Concentrate every minute like a Roman–like a man–on doing what’s in front
 # Stopwatch 
 
 Simple Stopwatch app built with Electron.
+
+## Run the APP
+
+```bash
+$ npm start
+```
+
+## Build the APP
+
+```bash
+$ npm run make
+```
